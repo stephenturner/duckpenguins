@@ -8,7 +8,7 @@ db <- dbConnect(duckdb(), dbdir="palmerpenguins.duckdb", read_only=TRUE)
 # Define the UI
 ui <- fluidPage(
   titlePanel("Penguins Explorer"),
-  markdown("See https://github.com/stephenturner/duckpenguinsapp"),
+  markdown("See https://github.com/stephenturner/duckpenguins"),
   sidebarLayout(
     sidebarPanel(
       radioButtons("species", "Select a species:",
